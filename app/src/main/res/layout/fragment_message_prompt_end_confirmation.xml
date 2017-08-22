@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tamu.themetry2.MessagePromptEndConfirmationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#303030"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Do more recordings!"
+        android:textStyle="bold"
+        android:id="@+id/confirmationTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:textColor="#80CBC4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Please keep us updated! You can check the message from the menu!"
+        android:id="@+id/confirmationDescription"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/confirmationTitle"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record"
+        android:textAllCaps="false"
+        android:id="@+id/nextRecordingButton"
+        android:onClick="returnToRecording"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_message_prompt_end_confirmation_recording"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textAllCaps="false"
+        android:id="@+id/confirmationButton"
+        android:onClick="returnToMenu"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/nextRecordingButton"
+        android:layout_toEndOf="@+id/nextRecordingButton"
+        android:background="@drawable/button_message_prompt_end_confirmation_menu"/>
+
+</RelativeLayout>

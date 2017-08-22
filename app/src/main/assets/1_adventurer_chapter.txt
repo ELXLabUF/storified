@@ -1,0 +1,12 @@
+Completed(set this to false initially): false
+Theme: Adventurer
+Name: Testing
+Description: does not mean that the programmer is not working. It only means that he may have not found the correct Stack Overflow solution.
+Prompt: ADVENTURER This is the prompt, please insert text here for the actual prompt :0oo0o0o0o
+Unit: Test Unit
+Completion: TEST COMPLETION 1_adventurer_chapter.txt
+Keyword: Stack Overflow
+Keyword: is
+Keyword: correct
+Keyword: programming
+Keyword: practice

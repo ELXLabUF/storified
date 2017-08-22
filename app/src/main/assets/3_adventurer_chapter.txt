@@ -1,0 +1,12 @@
+Completed(set this to false initially): false
+Theme: Adventurer
+Name: Friction
+Description: the force which makes objects stop. This force was initially discovered by Leonardo Da Vinci.
+Prompt: ADVENTURER Oh no! Friction has been completely erased from Earth! Describe how objects around the room will react now.
+Unit: Test Unit
+Completion: TEST COMPLETION 3_adventurer_chapter.txt
+Keyword: Force
+Keyword: Physics
+Keyword: Leonardo Da Vinci
+Keyword: Resistance
+Keyword: Surface

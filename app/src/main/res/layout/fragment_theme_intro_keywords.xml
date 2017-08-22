@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tamu.themetry2.ThemeIntroKeywordsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Words to remember"
+        android:textStyle="bold"
+        android:id="@+id/introKeywords"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Force,\nMass,\nGravitation,\nIsaac Newton,\nApple,\nAlbert Einstein"
+        android:id="@+id/introKeywordsList"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/introKeywords"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>

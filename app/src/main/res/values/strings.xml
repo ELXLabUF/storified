@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ScienceApp</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_spy_main_menu">SpyMainMenu</string>
+    <string name="title_activity_adventurer_main_menu">AdventurerMainMenu</string>
+    <string name="title_activity_journalist_main_menu">JournalistMainMenu</string>
+    <string name="title_activity_mission_board">MissionBoard</string>
+    <string name="title_activity_topic_review">TopicReview</string>
+    <string name="title_activity_mission">Mission</string>
+    <string name="title_activity_unit_part">unitPart</string>
+    <string name="title_activity_unit_section">UnitSection</string>
+    <string name="title_activity_chapter_completed">ChapterCompleted</string>
+    <string name="title_activity_intro_theme">IntroTheme</string>
+    <string name="title_activity_theme_intro">ScienceApp</string>
+    <string name="title_activity_message_prompt">MessagePrompt</string>
+    <string name="title_activity_message_record">MessageRecord</string>
+    <string name="title_activity_message_prompt_end">MessagePromptEnd</string>
+    <string name="title_activity_message_review">MessageReview</string>
+    <string name="title_activity_level_select">LevelSelect</string>
+    <string name="title_activity_new_main_menu">LevelSelect</string>
+</resources>

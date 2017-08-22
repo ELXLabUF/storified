@@ -1,0 +1,12 @@
+Completed(set this to false initially): false
+Theme: Adventurer
+Name: PLS WORK
+Description: would like this to work
+Prompt: ADVENTURER This is the prompt, please insert text here for the actual prompt :0oo0o0o0o
+Unit: >Metric
+Completion: TEST COMPLETION 2_adventurer_chapter.txt
+Keyword: I
+Keyword: don't
+Keyword: want
+Keyword: this
+Keyword: 2fail

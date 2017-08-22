@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tamu.themetry2.ThemeIntroConfirmationFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Are you ready\nto go on\nan adventure?"
+        android:textStyle="bold"
+        android:id="@+id/confirmationQuestion"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:textColor="#80CBC4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LET'S DO THIS!"
+        android:id="@+id/confirmationButton"
+        android:onClick="enterThemeSelect"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_theme_intro"/>
+
+</RelativeLayout>

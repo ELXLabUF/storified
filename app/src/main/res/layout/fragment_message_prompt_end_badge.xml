@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tamu.themetry2.MessagePromptEndBadgeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Good job, reporter!"
+        android:textStyle="bold"
+        android:id="@+id/congratulationText"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:textColor="#80CBC4"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="You successfully reported exposing Dr. Evil's plan and reminded everyone about gravity! People of the city thank you!"
+        android:id="@+id/promptEndText"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/congratulationText"
+        android:layout_alignParentStart="true"
+        android:textColor="#303030"/>
+
+</FrameLayout>

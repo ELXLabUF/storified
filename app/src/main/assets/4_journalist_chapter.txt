@@ -1,0 +1,7 @@
+Completed(set this to false initially): false
+Theme: Journalist
+Name: Recording 4
+Prompt: <p>This couldn’t be happening to me right now. My tail and wings started trembling with fear.</p><p>Then, everything went pitch black and somebody was shaking me side to side.</p><p>“Hey, wake up.”</p><p>I lifted my head and then saw my classmates staring at me.</p><p>The science teacher was saying,</p><p>“Are you okay? I think you fell asleep during class.”</p><p>“I was um… something weird. I had a tail and wings.” I said.</p><p>Everyone started laughing.</p><p>“I think you had quite a dream there.” replied the teacher.</p><p>I thought to myself,</p><p><i>you can’t imagine the things that I went through.</i></p><p>But I was just thankful that I was back to myself.</p><p>THE END</p>
+PromptSecondary:
+Unit: Test Unit
+WithRecording: false

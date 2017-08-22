@@ -1,0 +1,7 @@
+Completed(set this to false initially): false
+Theme: Journalist
+Name: Recording 3
+Prompt: <p>Then I noticed something weird… I had a pair of wings on my back.</p><p><i>No wonder I jumped so high to catch that ball.</i></p><p><i>Hey…. wait a minute. I thought I was a dog. Why do I have wings??</i></p><p>I was so confused.</p><p><i>What kind of an animal am I???!</i></p>
+PromptSecondary: What if you had both a tail and wings, what kinds of learned behaviors would you have now as a winged dog?
+Unit: Test Unit
+WithRecording: true

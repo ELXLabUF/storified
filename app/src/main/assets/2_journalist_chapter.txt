@@ -1,0 +1,7 @@
+Completed(set this to false initially): false
+Theme: Journalist
+Name: Recording 2
+Prompt: <p>As I was scampering around to understand what was going on, I saw a ball coming at me. I instinctively jumped up and caught it in my mouth.</p><p><i>Whaaa… Awesome! How do I know how to do this?!</i></p><p>Then I remembered what I learned in science class. I remember the teacher saying something about learned behaviors.</p>
+PromptSecondary: What are the learned behaviors that you might have as a dog?
+Unit: Test Unit
+WithRecording: true

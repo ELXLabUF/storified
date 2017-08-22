@@ -1,0 +1,7 @@
+Completed(set this to false initially): false
+Theme: Journalist
+Name: Recording 1
+Prompt: <p>It was dark and raining hard, just like the weather today. That was the day when Dr.Evil broke loose to the world.</p><p>It has been a while since Dr.Evil had escaped from the prison. He has still not found yet.</p><p>Mark, the cameraman and I are heading to TAMU campus because we had information that there are suspicious experiments going on in the lab.</p><p>"Wuhhh..!!", I almost slipped on the ground as I was running fast on the sidewalk.</p><p>"You have to watch out on the day like this. On a rainy day like this, there's less friction on the ground." Mark said, as he lifted me up by my arm.</p>
+PromptSecondary: Hmm... Friction. It sounds familiar. <b>What is friction?</b>
+Unit: Test Unit
+WithRecording: true

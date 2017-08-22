@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    tools:context=".ChapterCollectionFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:id="@+id/missionName"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:id="@+id/missionStatus"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp" />
+
+    <ImageView
+        android:layout_centerVertical="true"
+        android:layout_width="70dp"
+        android:layout_height="10dp"
+        android:id="@+id/leftWhiteBlock"
+        android:src="@color/white"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="10dp"
+        android:layout_gravity="right"
+        android:id="@+id/rightWhiteBlock"
+        android:src="@color/white"
+        android:layout_alignTop="@+id/leftWhiteBlock"
+        android:layout_alignParentEnd="true"
+        android:visibility="visible"/>
+
+    <ImageButton
+        android:padding="10dp"
+        android:layout_centerVertical="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rounded_button_chapter"
+        android:id="@+id/missionImage"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

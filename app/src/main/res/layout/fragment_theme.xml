@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_theme"
+    tools:context="tamu.themetry2.ThemeFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:id="@+id/themeName"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/themeImage"
+        android:background="@null"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@android:drawable/btn_star_big_off"/>
+
+    <ImageView
+        android:id="@+id/opacityFilterTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:src="#88000000" />
+
+    <Button
+        android:padding="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="No"
+        android:textAllCaps="false"
+        android:id="@+id/deselectThemeButton"
+        android:background="@drawable/rounded_button_deselect_theme"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="5dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:padding="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="Yes"
+        android:textAllCaps="false"
+        android:id="@+id/selectThemeButton"
+        android:background="@drawable/rounded_button_select_theme"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="5dp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

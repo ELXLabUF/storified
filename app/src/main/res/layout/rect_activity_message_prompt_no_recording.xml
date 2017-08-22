@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tamu.themetry2.MessagePromptNoRecording"
+    tools:deviceIds="wear_square">
+
+    <ImageView
+        android:id="@+id/messagePromptBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#303030" />
+
+    <ImageView
+        android:id="@+id/opacityFilter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="#66000000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/messagePromptNoRecordingText"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
